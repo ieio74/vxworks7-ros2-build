@@ -24,6 +24,7 @@
 ROS2_PATCH_DIRS=ament/googletest \
 		eclipse-iceoryx/iceoryx \
                 eclipse-cyclonedds/cyclonedds \
+                eProsima/Fast-CDR \
                 eProsima/Fast-DDS \
                 osrf/osrf_pycommon \
                 osrf/osrf_testing_tools_cpp \
