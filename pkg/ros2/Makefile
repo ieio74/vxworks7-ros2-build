@@ -31,7 +31,7 @@ PACKAGES += ros2
 PKG_NAME = ros2
 PKG_VER = $(ROS_DISTRO)
 
-PKG_URL = https://github.com/Wind-River/vxworks7-layer-for-ros2.git
+PKG_URL = https://github.com/ieio74/vxworks7-layer-for-ros2.git
 # layer branch is calculated as $(ROS_DISTRO)-release-$(WIND_RELEASE_ID)
 ifeq ($(ROS_DISTRO),rolling)
 PKG_COMMIT_ID = $(ROS_DISTRO)-$(WIND_RELEASE_ID)
