@@ -44,7 +44,7 @@ endef
 
 define pkg_install
 	cd $(BUILD_DIR)/$(PKG_NAME)/$(PKG_BUILD_DIR) ; \
-	$(VIRTUAL_ENV)/bin/cross-pip3 install --ignore-installed --prefix=$(ROOT_DIR) dist/*.whl
+	unzip -o dist/*.whl -d $(ROOT_DIR)
 endef
 
 define pkg_clean
